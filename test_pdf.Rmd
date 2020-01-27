@@ -3,8 +3,8 @@ title: "New_text"
 author: "IsoldevR"
 date: "27 January 2020"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -34,9 +34,9 @@ plot(pressure)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
-Some more testing
+## Some more testing
 
-```{r}
-print("hello world")
+```{r echo=F}
+print("Hello World")
 ```
 
